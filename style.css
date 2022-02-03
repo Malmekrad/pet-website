@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Exo:ital@1&family=Signika:wght@600&display=swap');
+
+Body{
+ background-color: #E1C9BC;
+
+}
+
+
+.container {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 2px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul {
+  list-style: none;
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+  width: fit-content;
+  margin: 0px 10px;
+  padding: 5px;
+  font-size: 30px;
+  font-family: 'Exo', sans-serif;
+ color: #7F8188;
+}
+
+
+h1 {
+  color: #FFFAEF;
+  font-size: 67px;
+font-family: 'DM Serif Text', serif;
+
+}
+
+h2 {
+ color: #FFFAEF;
+  font-size: 33px;
+  font-family: 'Exo', sans-serif; }
+
+
+.buttonClass {
+ font-size:25px;
+ font-family: 'Exo', sans-serif;
+ padding: 10px 20px;
+ margin: 50px;
+ width:200px;
+ height:50px;
+ border-width:1px;
+ color:#fff;
+ border-color:rgba(203, 174, 159, 1);
+ font-weight:bold;
+ border-radius:8px;
+ box-shadow: 8px 7px 0px 0px rgba(255, 227, 212, 1);
+ background:rgba(203, 174, 159, 1);
+}
+
+
+.buttonClass:hover {
+  background: rgba(156, 135, 125, 1)
+}
